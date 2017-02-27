@@ -1,0 +1,1 @@
+https://maps.google.com/maps/api/staticmap?center=37.584085379794665%2C126.8180457153122&zoom=16&size=256x256&language=ko&markers=37.5840854%2C126.82023439999999&sensor=false&client=google-maps-frontend&signature=N0HStrC_O_2kIlrDa_fh1ndoDq4

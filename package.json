@@ -1,0 +1,26 @@
+{
+  "name": "highwaycoordinate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.1",
+    "lets-get-meta": "^2.0.1",
+    "mocha": "^3.2.0",
+    "promise": "^7.1.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha $(find ./ -name '*.js') --recursive -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
