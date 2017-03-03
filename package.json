@@ -7,6 +7,7 @@
     "test": "test"
   },
   "dependencies": {
+    "bluebird": "^3.4.7",
     "cheerio": "^0.22.0",
     "express": "^4.14.1",
     "lets-get-meta": "^2.0.1",

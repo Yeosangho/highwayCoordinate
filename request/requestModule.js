@@ -29,13 +29,15 @@ RequestModule.prototype = {
  			  'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko'
  			}
 		};
+		console.log(url);
 		return requestPromise(option)
-   		 	.then(function(result) {
-    		 	return result;
-    		})
-    		.catch(function (err) {
-        	// Crawling failed... 
-    		});		
+		.then(function(result){
+				return result;
+		})
+		.catch(function(err){
+ 			   console.error(err.stack);
+ 			   process.exit();
+		});	
 	}
 
 }
